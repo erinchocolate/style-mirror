@@ -1,0 +1,14 @@
+# OS / editor noise
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Python (in case tooling is added later)
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# NOTE: samples/ and contexts/sessions/ ARE tracked on purpose — they are the
+# raw evidence the whole system learns from. Do not ignore them.
