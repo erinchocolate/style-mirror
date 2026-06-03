@@ -10,5 +10,15 @@ __pycache__/
 .venv/
 .env
 
-# NOTE: samples/ and contexts/sessions/ ARE tracked on purpose — they are the
-# raw evidence the whole system learns from. Do not ignore them.
+# ---------------------------------------------------------------------------
+# PRIVACY: raw personal text must NEVER reach the public remote.
+# These dirs hold the user's actual writing (samples) and the verbatim
+# raw/polish/final text of every session. Only distilled style is public.
+# We ignore all their contents but keep the INDEX.md skeletons so the repo
+# structure stays coherent (INDEX files contain metadata only, no text).
+# ---------------------------------------------------------------------------
+contexts/sessions/*
+!contexts/sessions/INDEX.md
+
+samples/*
+!samples/INDEX.md
