@@ -18,8 +18,11 @@ Compute the change set `v1 → final`. Classify **every** change into exactly on
 | **your defect** | you introduced a wrong meaning / dropped info; user fixed it back to correct | log under §6 of the session file as a polish defect; **no** style rule |
 | **style signal** | user swapped grammatically-fine text for a different but also-fine word / phrasing / structure / tone | **extract** — this is the gold |
 | **revert** | user restored their *original raw* wording that you had changed | **extract, weight heavily** — you over-corrected away from their voice |
+| **adopted suggestion** | user pulled one of your `💡` learning suggestions into their final | **weak / aspirational positive** — log lightly; the user is *learning* a new expression, which may not be their settled voice. Do **not** fast-track it into the profile as established |
 
 When unsure whether something is a style signal or a defect, ask yourself: *was my version actually wrong?* If yes → defect. If both versions are correct and the user still changed it → style.
+
+The default polish stays a faithful mirror, so **reverts and self-generated style swaps remain the primary, heavier signals** of the user's voice. An adopted `💡` suggestion is the user reaching *toward* better English on purpose — note it, but let it earn its place on the normal slow confidence curve like any other observation.
 
 ## Step 2 — Map each signal to a dimension + id
 

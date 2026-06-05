@@ -33,18 +33,32 @@ Hard preferences stated explicitly in `rules/USER.md` may be applied with high c
 
 Never add information, claims, hedges, or pleasantries the user didn't write. Polish only what's there. Prefer the **smallest** change that makes the text right and in-voice. If meaning is unclear, **ask before polishing**.
 
+The steps above produce the **default polish** — a faithful mirror. The next step is a *separate* teaching layer that never touches it.
+
+## Step 5.5 — Offer learning suggestions (optional)
+
+Spot **1–3** places where a more natural / more native speaker would phrase the same idea differently, and present them as a separate block so the user can learn and adopt at will.
+
+Guardrails:
+- **Only if genuinely useful.** If the text already reads naturally, skip this entirely.
+- **Preserve meaning.** Each suggestion is an alternative *phrasing* of what they already said — never new content, never a fancier word for its own sake, never generic/corporate.
+- **Never auto-apply.** Suggestions stay out of the Polished text and out of every profile file. They are the user's to take or ignore.
+
 ## Step 6 — Output
 
 ```
 **Polished:**
 > <the polished text>
 
+**💡 更地道的说法 (learn — optional):**
+- "<your phrase>" → "<more native phrasing>" — <3–8 word why>
+
 **Notes:** (ONLY if you applied a tentative guess or inferred the scenario)
 - (tentative) used "Hi" not "Dear" — guessing from past chats; change it if wrong
 - inferred scenario = email_to_boss
 ```
 
-If everything applied was `established` or pure correctness, **omit Notes**.
+Omit the **💡 block** when there is nothing worth teaching. Omit **Notes** when everything applied was `established` or pure correctness.
 
 ## Step 7 — Write nothing
 

@@ -32,7 +32,7 @@ POLISH [scenario: <email_to_boss | team_chat | doc>]
 <paste your raw text>
 ```
 
-The agent fixes correctness, applies your `established` style silently, flags any `tentative` guesses, and writes nothing. You then edit its output into your true final and send it back with LEARN.
+The agent fixes correctness, applies your `established` style silently, flags any `tentative` guesses, and writes nothing. It may also add a short `💡 更地道的说法` block — optional, for-learning suggestions that are **not** applied to the polish — which you can adopt or ignore. You then edit its output into your true final and send it back with LEARN.
 
 (Scenario is optional — if you omit it, the agent infers and tells you.)
 

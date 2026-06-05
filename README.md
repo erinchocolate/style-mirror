@@ -14,6 +14,9 @@ The highest-value data is not your raw text, and not your final text — it is t
 1. POLISH   You paste raw text (+ optional scenario).
             Agent fixes grammar, then applies your learned style.
             Uncertain style guesses are flagged, not imposed.
+            It may also offer a few more-native phrasings as
+            optional suggestions you can learn from — separate
+            from the polish, never imposed.
 
 2. EDIT     You edit the agent's polish into your true final text.
 
