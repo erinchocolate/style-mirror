@@ -2,7 +2,7 @@
 id: style_profile
 category: style
 created: 2026-06-03
-updated: 2026-06-03
+updated: 2026-06-05
 ---
 
 # STYLE_PROFILE — the user's learned voice
@@ -23,7 +23,8 @@ Phrasing habits above the single-word level (multi-word constructions, openers, 
 
 | id | rule | confidence | evidence | sessions |
 |----|------|-----------|----------|----------|
-| _(none yet — populated by ONBOARD as seed, then by LEARN)_ | | | | |
+| ph_explicit_place | names the location explicitly ("at the show") rather than compressing to a pronoun ("there") | tentative | 1 | s_20260604_001 |
+| ph_not_only_position | in the "not only … but also …" correlative, places "not only" **before** the verb ("not only built X but also Y") rather than after it ("built not only X but also Y") | tentative | 1 | s_20260605_003 |
 
 ## Dimension B — Sentence & structure
 
@@ -31,7 +32,7 @@ Sentence length, active vs passive, how clauses connect, paragraph shape.
 
 | id | rule | confidence | evidence | sessions |
 |----|------|-----------|----------|----------|
-| _(none yet)_ | | | | |
+| st_no_comma_before_conj | omits the comma before a coordinating conjunction ("and"/"so") **joining two independent clauses** (e.g. "goals and studied", "AI agents and shared", "impaired so when", "chat window so my focus"). Scope bound: does **not** extend to serial/list commas — user kept the Oxford comma in "hackathons, workshops, and training". | established | 5 | s_20260604_001, s_20260605_002, s_20260605_003 |
 
 ## Dimension C — Tone & formality
 

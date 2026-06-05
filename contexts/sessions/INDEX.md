@@ -6,7 +6,10 @@ A lightweight, one-row-per-session log of all polish→learn cycles. Survey hist
 
 | date | session id | scenario | signals | diff_size |
 |------|-----------|----------|---------|-----------|
-| _(none yet)_ | | | | |
+| 2026-06-04 | s_20260604_001 | team_chat | st_no_comma_before_conj, ph_explicit_place | 3 |
+| 2026-06-05 | s_20260605_001 | doc | (none — all changes content/factual) | 0 |
+| 2026-06-05 | s_20260605_002 | doc | st_no_comma_before_conj (→ established) | 2 |
+| 2026-06-05 | s_20260605_003 | doc | ph_not_only_position (new), st_no_comma_before_conj (+1) | 1 |
 
 ---
 

@@ -4,9 +4,9 @@
 
 ## Basics
 
-- **Native language:** _(e.g. Chinese)_
-- **English level (self-assessed):** _(e.g. fluent reading/listening, less confident in writing tone)_
-- **Where their English goes:** _(e.g. work email, team chat, technical docs, LinkedIn)_
+- **Native language:** Chinese
+- **English level (self-assessed):** fluent reading/listening, less confident in writing grammar
+- **Where their English goes:** work email, team chat, technical docs
 
 ## What they're trying to fix
 
